@@ -69,8 +69,7 @@ CppDepend offers a deep, specialized experience for C/C++ developers needing ful
 ## 📥 Try CppDepend
 
 - 🔗 [Download Free Trial](https://www.cppdepend.com/download)  
-- 🎓 [Free for Students & Open Source](https://www.cppdepend.com/cppdepend-for-oss)  
-- 📚 [Explore More Use Cases](https://www.cppdepend.com/use-cases)
+- 🎓 [Free for Students & Open Source](https://www.cppdepend.com/cppdepend-for-oss)
 
 ---
 
