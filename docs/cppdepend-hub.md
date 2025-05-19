@@ -88,5 +88,5 @@ Whether you use Coverity for vulnerabilities, Klocwork for safety, or SonarQube 
 ---
 
 ### 🧪 [Try CppDepend Free](https://www.cppdepend.com/download)  
-### 🔗 [Learn How External Tool Integration Works](https://www.cppdepend.com/use-cases)
+### 🔗 [Learn How External Tool Integration Works](https://www.cppdepend.com/documentation/external-tools-integration)
 
