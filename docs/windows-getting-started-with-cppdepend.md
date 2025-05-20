@@ -40,7 +40,17 @@ Steps:
 
 - Choose how to structure your codebase view:
   - Logical structure (by namespaces)
+    
+   <div align="left">
+  <img src="https://www.cppdepend.com/img/LogicalStructure.webp" alt="New CppDepend Project" width="400"/>
+</div>
+
   - Physical structure (by folders/files)
+    
+   <div align="left">
+  <img src="https://www.cppdepend.com/img/PhysicalStructure.webp" alt="New CppDepend Project" width="400"/>
+</div>
+
 - Add your projects:
   - `.sln`, `.vcxproj` (Visual Studio)
   - QtCreator projects
