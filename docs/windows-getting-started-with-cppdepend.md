@@ -33,7 +33,7 @@ Steps:
 
 - Launch `VisualCppDepend.exe`
 - Create a new project
-  ![Alt text]([https://example.com/image.png](https://www.cppdepend.com/img/newproject.webp))
+  ![Alt text](https://www.cppdepend.com/img/newproject.webp)
 - Choose how to structure your codebase view:
   - Logical structure (by namespaces)
   - Physical structure (by folders/files)
