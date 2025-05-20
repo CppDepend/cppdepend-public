@@ -33,7 +33,9 @@ Steps:
 
 - Launch `VisualCppDepend.exe`
 - Create a new project
-  <img src="https://www.cppdepend.com/img/newproject.webp" alt="New CppDepend Project" width="300"/>
+  <div align="left">
+  <img src="https://www.cppdepend.com/img/newproject.webp" alt="New CppDepend Project" width="400"/>
+</div>
 - Choose how to structure your codebase view:
   - Logical structure (by namespaces)
   - Physical structure (by folders/files)
