@@ -33,6 +33,7 @@ Steps:
 
 - Launch `VisualCppDepend.exe`
 - Create a new project
+  
   <div align="left">
   <img src="https://www.cppdepend.com/img/newproject.webp" alt="New CppDepend Project" width="400"/>
 </div>
