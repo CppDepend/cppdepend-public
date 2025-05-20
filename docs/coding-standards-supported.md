@@ -89,3 +89,6 @@ Start using CppDepend today to enforce standards, catch issues early, and delive
 
 👉 [Download CppDepend](https://www.cppdepend.com/download)
 
+---
+
+🆓 **CppDepend is free for open source contributors.** [Learn more](https://www.cppdepend.com/cppdepend-for-oss)
