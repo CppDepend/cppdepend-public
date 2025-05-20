@@ -15,14 +15,14 @@ CppDepend is a powerful static analysis tool for C/C++ developers. This guide wa
 
 CppDepend offers two editions for Linux:
 
-- **Developer Edition**: Available for Ubuntu 18.04 / 20.04 / 22.04  
+- **Developer Edition**: Available for Ubuntu 2018 / 2020 / 2022  
 - **DevOps Edition**: Works across all Linux distributions
 
 📥 [Download CppDepend](https://www.cppdepend.com/download)
 
 ---
 
-## 🧑‍💻 Developer Edition (Ubuntu 18.04 / 20.04 / 22.04)
+## 🧑‍💻 Developer Edition (Ubuntu 18 / 20 / 22)
 
 Steps:
 
