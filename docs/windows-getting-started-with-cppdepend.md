@@ -39,9 +39,10 @@ Steps:
 </div>
 
 - Choose how to structure your codebase view:
+  
   - Logical structure (by namespaces)
-    
-   <div align="left">
+
+<div align="left">
   <img src="https://www.cppdepend.com/img/LogicalStructure.webp" alt="New CppDepend Project" width="400"/>
 </div>
 
@@ -57,6 +58,10 @@ Steps:
   - `compile_commands.json` (from CMake/Ninja)
   - Custom build via [BuildMonitor](build-monitor)
   - Manual setup via [ProjectMaker](project-maker)
+   <div align="left">
+  <img src="https://www.cppdepend.com/img/addprojects.webp" alt="New CppDepend Project" width="400"/>
+</div>
+    
 - Press **F5** to run analysis
 
 📸 Output: Interactive dashboard with metrics, graphs, and more
