@@ -7,17 +7,17 @@ canonical: https://www.cppdepend.com/documentation/getting-started-with-cppdepen
 
 # 🚀 Getting Started with CppDepend on Windows
 
-CppDepend is a powerful tool to analyze, improve, and maintain your C and C++ codebases. This guide walks you through how to set it up on **Windows**, including Visual Studio integration, first analysis steps, and interpreting the results.
+CppDepend is a powerful tool to analyze, improve, and maintain your C and C++ codebases. This guide walks you through setting it up on **Windows**, including Visual Studio integration, your first analysis, and understanding the results.
 
 ---
 
 ## 📥 Download and Install CppDepend
 
-1. Download the installer: [CppDepend Download](https://www.cppdepend.com/download)
-2. Unzip it in a folder **outside of Program Files** (e.g., `C:\CppDepend`)
-3. Run `VisualCppDepend.exe`
+1. Download: [CppDepend Download](https://www.cppdepend.com/download)  
+2. Unzip it in a folder **outside of Program Files** (e.g., `C:\CppDepend`)  
+3. Launch `VisualCppDepend.exe`  
 
-> ⚠️ Do not install in `Program Files` due to Windows permissions
+> ⚠️ Avoid installing in `Program Files` due to Windows permission issues.
 
 ---
 
@@ -29,95 +29,109 @@ CppDepend is a powerful tool to analyze, improve, and maintain your C and C++ co
 
 ## 🔍 Analyze Your C/C++ Code
 
-Steps:
+### Step 1 — Launch and Create a Project
 
-- Launch `VisualCppDepend.exe`
-- Create a new project
-  
-  <div align="left">
-  <img src="https://www.cppdepend.com/img/newproject.webp" alt="New CppDepend Project" width="400"/>
+Launch `VisualCppDepend.exe` and create a new project:
+
+<div align="center">
+  <img src="https://www.cppdepend.com/img/newproject.webp" alt="New CppDepend Project" width="500"/>
 </div>
-
-- Choose how to structure your codebase view:
-  
-  - Logical structure (by namespaces)
-
-<div align="left">
-  <img src="https://www.cppdepend.com/img/LogicalStructure.webp" alt="New CppDepend Project" width="400"/>
-</div>
-
-  - Physical structure (by folders/files)
-    
-   <div align="left">
-  <img src="https://www.cppdepend.com/img/PhysicalStructure.webp" alt="New CppDepend Project" width="400"/>
-</div>
-
-- Add your projects:
-  - `.sln`, `.vcxproj` (Visual Studio)
-  - QtCreator projects
-  - `compile_commands.json` (from CMake/Ninja)
-  - Custom build via [BuildMonitor](build-monitor)
-  - Manual setup via [ProjectMaker](project-maker)
-   <div align="left">
-  <img src="https://www.cppdepend.com/img/addprojects.webp" alt="New CppDepend Project" width="400"/>
-</div>
-    
-- Press **F5** to run analysis
-
-📸 Output: Interactive dashboard with metrics, graphs, and more
 
 ---
 
-## 🔌 Install Visual Studio Add-in
+### Step 2 — Choose Codebase View Structure
 
-Run:
+You can structure your view by:
+
+- **Logical structure** (by namespaces):  
+  <div align="center">
+    <img src="https://www.cppdepend.com/img/LogicalStructure.webp" alt="Logical Structure" width="500"/>
+  </div>
+
+- **Physical structure** (by folders/files):  
+  <div align="center">
+    <img src="https://www.cppdepend.com/img/PhysicalStructure.webp" alt="Physical Structure" width="500"/>
+  </div>
+
+---
+
+### Step 3 — Add Your Projects
+
+CppDepend supports:
+
+- `.sln`, `.vcxproj` (Visual Studio)
+- QtCreator projects
+- `compile_commands.json` (CMake/Ninja)
+- Custom builds via [BuildMonitor](build-monitor)
+- Manual setup via [ProjectMaker](project-maker)
+
+<div align="center">
+  <img src="https://www.cppdepend.com/img/addprojects.webp" alt="Add Projects" width="500"/>
+</div>
+
+---
+
+### Step 4 — Run the Analysis
+
+Press **F5** to start the analysis.
+
+You’ll get an interactive dashboard with detailed metrics, graphs, and navigation tools.
+
+<div align="center">
+  <img src="https://www.cppdepend.com/img/newproject3.webp" alt="Analysis Dashboard" width="500"/>
+</div>
+
+---
+
+## 🔌 Install the Visual Studio Add-in
+
+Run the following installer:
 
 ```bash
 CppDepend.VisualStudioExtension.Installer.exe
 ```
 
-Or use the in-app installer in VisualCppDepend.
+Or use the in-app installer via `VisualCppDepend.exe`.
 
 Then:
 
-- Open Visual Studio
-- Attach CppDepend project to your `.sln`
-- Launch analysis and view results inside Visual Studio
+- Open Visual Studio  
+- Attach the CppDepend project to your `.sln`  
+- Launch analysis and view results inside Visual Studio  
 
 ---
 
 ## 🧾 What You Learn from the Report
 
-CppDepend reports give insight into:
+CppDepend provides insights such as:
 
-- 🔢 Application and project-level metrics
-- 🧠 Visual structural views
-- 🔄 Build order and dependency cycles
-- 📉 Abstractness vs. Instability chart
-- ❌ Rule violations (via CQLinq queries)
-- 🧮 Trends and maintainability tracking
+- 🔢 Code and project-level metrics  
+- 🧠 Interactive dependency and architecture graphs  
+- 🔄 Build order and cycle detection  
+- 📉 Abstractness vs. Instability visualization  
+- ❌ Rule violations (CQLinq)  
+- 📈 Maintainability trends and quality evolution  
 
 ---
 
-## ⚙️ Go Further with Control
+## ⚙️ Go Further with Full Control
 
-- Understand metrics and how they relate to maintainability
-- Learn and customize [CQLinq rules](https://www.cppdepend.com/documentation/cqlinq-syntax)
-- Filter and configure the dashboard views
-- Tune your quality gates
+- Customize rules using [CQLinq](https://www.cppdepend.com/documentation/cqlinq-syntax)  
+- Configure quality gates  
+- Filter metrics and tailor dashboards  
+- Understand how metrics relate to maintainability  
 
 ---
 
 ## 📚 Additional Resources
 
-- [Use Cases](https://www.cppdepend.com/use-cases)
-- [Metrics Explained](https://www.cppdepend.com/documentation/code-metrics)
-- [Support](mailto:support@cppdepend.com)
+- 📄 [Use Cases](https://www.cppdepend.com/use-cases)  
+- 📊 [Metrics Explained](https://www.cppdepend.com/documentation/code-metrics)  
+- 📧 [Contact Support](mailto:support@cppdepend.com)  
 
 ---
 
 ## 🎯 Start Now
 
-- 🧪 [Download Free Trial](https://www.cppdepend.com/download)
+- 🧪 [Download Free Trial](https://www.cppdepend.com/download)  
 - 🎓 [Free for OSS and Students](https://www.cppdepend.com/cppdepend-for-oss)
-
