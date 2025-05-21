@@ -30,6 +30,7 @@ This repository includes documentation, comparisons, and case studies to help yo
 Explore:
 
 - ✨ [CppDepend Features](docs/cppdepend-features.md)
+- 🧠 [CQLinq Use Cases](docs/cqlinq-feature.md)
 - 🖥️ [Getting Started: Windows](docs/windows-getting-started-with-cppdepend.md)
 - 🐧 [Getting Started: Linux](docs/linux-getting-started-with-cppdepend.md)
 - 📚 [Supported Coding Standards](docs/coding-standards-supported.md)
