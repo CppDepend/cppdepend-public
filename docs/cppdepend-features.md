@@ -43,8 +43,8 @@ CppDepend is widely used in automotive, aerospace, defense, medical devices, and
 
 CppDepend fits seamlessly into development workflows and CI/CD pipelines.
 
-- GitHub Actions, Azure DevOps, Jenkins, GitLab CI, and more
-- CLI-based automation with HTML + JSON report outputs
+- Jenkins, GitLab CI, and more
+- CLI-based automation with HTML report outputs
 - SonarQube plugin for consolidated dashboards
 
 ---
@@ -67,7 +67,7 @@ CppDepend can import and extend findings from other tools:
 - Klocwork
 - SonarQube
 - Cppcheck
-- Visual Studio Code Analysis
+- Polyspace
 - Any XML/JSON log-based tool
 
 Imported issues are treated as first-class citizens — visualized, queried, and tracked with native results.
