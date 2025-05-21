@@ -2,104 +2,109 @@
 
 **CppDepend** is a professional-grade static analysis tool for C and C++ that helps teams enforce coding standards, visualize architecture, track technical debt, and improve long-term maintainability.
 
-CppDepend is ideal for:
-- Large and complex C/C++ codebases
-- Safety-critical software (automotive, aerospace, medical)
-- Teams using MISRA C++:2023, CERT, CWE, or ISO 26262 standards
-- DevOps workflows needing architectural insight and compliance
+---
+
+## ✅ Who Uses CppDepend?
+
+CppDepend is trusted by:
+
+- Teams maintaining large or legacy C/C++ codebases
+- Developers working on safety-critical systems (automotive, aerospace, medical)
+- Organizations enforcing MISRA C++:2023, CERT, CWE, or ISO 26262
+- DevOps pipelines needing architecture visibility and compliance enforcement
 
 ---
 
 ## 🎓 Free for Students and OSS Contributors
 
-CppDepend is **free for students, educators, and open-source contributors**. If you're working on an academic or non-commercial open-source project, you can request a license at:
-
-👉 [cppdepend.com/cppdepend-for-oss](https://www.cppdepend.com/cppdepend-for-oss)
+CppDepend is **free for students, educators, and open-source contributors**.  
+Request your license here:  
+🔗 [cppdepend.com/cppdepend-for-oss](https://www.cppdepend.com/cppdepend-for-oss)
 
 ---
 
 ## 📦 What This Repository Contains
 
-This public repository provides documentation, comparisons, and case studies to help developers, team leads, and quality managers evaluate CppDepend.
+This repository includes documentation, comparisons, and case studies to help you evaluate and adopt CppDepend.
 
 Explore:
 
-- 💡 Installation & Usage Guides
-- 📚 Supported Coding Standards
-- 🛠️ Tool Comparisons
-- 🧠 Industry Case Studies
-- 📈 Benchmarking Insights
+- ✨ [CppDepend Features](docs/cppdepend-features.md)
+- 🖥️ [Getting Started: Windows](docs/windows-getting-started-with-cppdepend.md)
+- 🐧 [Getting Started: Linux](docs/linux-getting-started-with-cppdepend.md)
+- 📚 [Supported Coding Standards](docs/coding-standards-supported.md)
+- 🛠️ [CppDepend Tool Comparisons](docs/cppdepend-vs-others/cppdepend-vs-static-tools.md)
+- 🧠 [Industry Case Studies](docs/case-studies/index.md)
 
 ---
 
 ## 🚀 Quick Start
 
-📥 [Download a free trial of CppDepend](https://www.cppdepend.com/download)  
-📚 [Official documentation](https://www.cppdepend.com/documentation)
+- 📥 [Download the Free Trial](https://www.cppdepend.com/download)  
+- 📖 [Official Documentation](https://www.cppdepend.com/documentation)  
+- 📬 [Email Support](mailto:support@cppdepend.com)
 
 ---
 
 ## 🔍 Tool Comparisons
 
-| Comparison Page | Description |
-|-----------------|-------------|
-| [CppDepend vs SonarQube](docs/cppdepend-vs-sonarqube.md) | Architecture control vs hygiene-first analysis |
-| [CppDepend vs Coverity](docs/cppdepend-vs-coverity.md) | In-depth rules and customization comparison |
-| [CppDepend vs Klocwork](docs/cppdepend-vs-klocwork.md) | Design insight vs code defect detection |
-| [CppDepend vs CppCheck](docs/cppdepend-vs-cppcheck.md) | Free syntax checker vs advanced quality platform |
+| Tool | Comparison |
+|------|------------|
+| [SonarQube](docs/cppdepend-vs-sonarqube.md) | Architecture control vs hygiene-first analysis |
+| [Coverity](docs/cppdepend-vs-coverity.md) | Custom rules and traceability vs static defect detection |
+| [Klocwork](docs/cppdepend-vs-klocwork.md) | Maintainability & architecture vs vulnerability detection |
+| [Cppcheck](docs/cppdepend-vs-cppcheck.md) | Free syntax checker vs enterprise-grade analysis |
+| [Polyspace](docs/cppdepend-vs-polyspace.md) | Integration and reporting vs formal verification |
 
 ---
 
-## 📚 Coding Standards Supported
+## 📚 Supported Standards
 
 CppDepend supports and enforces:
 
-- ✅ [MISRA C++:2023](docs/coding-standards-supported.md)
-- ✅ CERT C/C++ Secure Coding Standards
+- ✅ MISRA C++:2023
+- ✅ CERT C/C++ Secure Coding
 - ✅ CWE Top 25 + On The Cusp
 - ✅ ISO/IEC TS 17961
-- ✅ Custom rule engines using CQLinq or Python
+- ✅ AUTOSAR C++
+- ✅ Fully customizable rule engine with CQLinq
 
 ---
 
 ## 🧠 Industry Case Studies
 
 | Industry | Case Study |
-|---------|------------|
+|----------|------------|
 | Automotive | [MISRA & AUTOSAR](docs/case-studies/automotive.md) |
 | Aerospace & Defense | [Compliance and Reliability](docs/case-studies/aerospace-defense.md) |
-| Medical Devices | [Software Safety Standards](docs/case-studies/medical-devices.md) |
-| Finance & Banking | [Legacy System Maintainability](docs/case-studies/finance.md) |
-| Embedded Systems | [Optimized, Resource-Constrained Code](docs/case-studies/embedded-systems.md) |
-
----
-
-## 📈 Performance & Benchmarking
-
-- 🚀 [CppDepend Benchmarking on Large Codebases](docs/benchmarking.md)
-- 📊 Load times, analysis speed, memory usage
+| Medical Devices | [Safety-Critical Development](docs/case-studies/medical-devices.md) |
+| Finance & Banking | [Maintainability for Legacy Systems](docs/case-studies/financial-services.md) |
+| Embedded Systems | [Resource-Constrained Optimization](docs/case-studies/embedded-systems.md) |
+| Energy & Utilities | [Governance and Long-Term Maintenance](docs/case-studies/energy-and-utilities.md) |
+| Government & Public Sector | [Security & Compliance Enforcement](docs/case-studies/government-and-public-sector.md) |
+| Software & Product Companies | [Quality at Scale](docs/case-studies/software-and-product-companies.md) |
+| Game Development | [Architecture and Performance](docs/case-studies/game-developement.md) |
 
 ---
 
 ## 🤝 Community & Contributions
 
-We welcome ideas, issues, and improvements to this public-facing documentation.
+We welcome ideas, issues, and suggestions related to improving this documentation.
 
-🛠️ Submit an issue  
-📧 Contact: [support@cppdepend.com](mailto:support@cppdepend.com)
+- 🛠️ [Submit an Issue](https://github.com/your-org/cppdepend-docs/issues)
+- 📧 Contact: [support@cppdepend.com](mailto:support@cppdepend.com)
 
 ---
 
 ## 📝 License
 
-This repository is for documentation and educational content.  
-CppDepend is a commercial product. Visit [cppdepend.com](https://www.cppdepend.com) for licensing.
+This repository provides documentation only.  
+CppDepend is a commercial product. Visit [cppdepend.com](https://www.cppdepend.com) for licensing information.
 
 ---
 
-## 📎 Useful Links
+## 🔗 Useful Links
 
-- 🌐 [CppDepend Website](https://www.cppdepend.com)
-- 📄 [Online Documentation](https://www.cppdepend.com/documentation)
-- 📬 [Contact Support](mailto:support@cppdepend.com)
+- 🌐 [Official Website](https://www.cppdepend.com)
+- 📄 [Product Documentation](https://www.cppdepend.com/documentation)
 - 🎓 [Free for OSS & Students](https://www.cppdepend.com/cppdepend-for-oss)
