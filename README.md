@@ -24,11 +24,11 @@ This public repository provides documentation, comparisons, and case studies to 
 
 Explore:
 
-- 🛠️ Tool Comparisons
+- 💡 Installation & Usage Guides
 - 📚 Supported Coding Standards
+- 🛠️ Tool Comparisons
 - 🧠 Industry Case Studies
 - 📈 Benchmarking Insights
-- 💡 Installation & Usage Guides
 
 ---
 
