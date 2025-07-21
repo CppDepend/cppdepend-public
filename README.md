@@ -42,7 +42,7 @@ Explore:
 ## 🚀 Quick Start
 
 - 📥 [Download the Free Trial](https://www.cppdepend.com/download)  
-- 📖 [Official Documentation](https://www.cppdepend.com/documentation)  
+- 📖 [Official Documentation](https://www.cppdepend.com/documentation/getting-started-with-cppdepend)
 - 📬 [Email Support](mailto:support@cppdepend.com)
 
 ---
@@ -92,7 +92,6 @@ CppDepend supports and enforces:
 
 We welcome ideas, issues, and suggestions related to improving this documentation.
 
-- 🛠️ [Submit an Issue](https://github.com/your-org/cppdepend-docs/issues)
 - 📧 Contact: [support@cppdepend.com](mailto:support@cppdepend.com)
 
 ---
