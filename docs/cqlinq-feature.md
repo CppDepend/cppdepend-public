@@ -99,6 +99,6 @@ CppDepend ships with 200+ default queries covering metrics, maintainability, sta
 
 - 🧪 [Download Free Trial](https://www.cppdepend.com/download)
 - 🎓 [CppDepend for OSS & Students](https://www.cppdepend.com/cppdepend-for-oss)
-- 📘 [Official Documentation](https://www.cppdepend.com/documentation/)
+- 📘 [Official Documentation](https://www.cppdepend.com/documentation/getting-started-with-cppdepend)
 
 
